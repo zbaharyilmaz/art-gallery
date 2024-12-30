@@ -8,16 +8,22 @@ Welcome to the Van Gogh Art Gallery project! This is a web application that show
 
 ## Features
 
--Responsive Layout: The application automatically adjusts its layout for desktop, tablet, and mobile screens.
--Interactive Gallery: Hovering over the artwork enlarges the image for better visibility.
--Sass Styling: The project is styled using Sass, providing a clean and customizable design.
+- **Responsive Layout**  
+  The application automatically adjusts its layout for desktop, tablet, and mobile screens.
+
+- **Interactive Gallery**  
+  Hovering over the artwork enlarges the image for better visibility.
+
+- **Sass Styling**  
+  The project is styled using Sass, providing a clean and customizable design.
 
 ## Technologies Used
 
--React: JavaScript library for building user interfaces.
--Sass: A CSS preprocessor for styling.
--Flexbox: Employed for layout management and responsive card grid.
--Google Fonts: Custom fonts used for styling text (Cinzel).
+- **React**: JavaScript library for building user interfaces.
+- **Sass**: A CSS preprocessor for styling.
+- **Flexbox**: Employed for layout management and responsive card grid.
+- **Google Fonts**: Custom fonts used for styling text (Cinzel).
+
 
 ## Installation Instructions
 
