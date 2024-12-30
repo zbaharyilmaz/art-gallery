@@ -1,26 +1,30 @@
 @import "../scss/mixin";
 @import "../scss/variables";
+// @import "node_modules/bootstrap/scss/bootstrap.scss";
+
 .works {
-  // Flex düzeni
+    @include flex(row, center, 1rem, center); 
+
     width: calc(33.33% - 1rem);  // Ekran boyutuna göre her bir öğenin genişliği
-    height: 420px;  // Sabit yükseklik, fotoğraflar aynı boyutta
+    height:420px;  // Sabit yükseklik, fotoğraflar aynı boyutta
     margin-bottom: 1rem;  // Alt boşluk
     border-radius: 8px;
     background-color:$bg-dark-blue;
     overflow: hidden;  // Görsellerin taşmasını engeller
-    padding: 1rem;
-    border:2px solid white;
+    padding:0.7rem;
+    border:2px solid $bg-lighten-blue;
 
     img {
         width: 100%;
-        height: 70%;  // Yükseklik oranını belirler
+        height: 85%;  // Yükseklik oranını belirler
         object-fit:contain;  // Görsellerin kutuya uyacak şekilde kesilmesini sağlar
         filter:opacity(0.8);
         transition: transform 0.3s ease; 
+        z-index: 2;
         
         &:hover{
-            transform: scale(1.2);
-            filter: none;
+            transform: scale(1.09);
+            filter:none;
             cursor:pointer;
         }
     }
@@ -30,13 +34,17 @@
     }
 
     h5 {
-        font-size:1.1rem;
         color:$accent-orange;
-        margin: 1rem 0;
     }
+    @media (max-width: 768px) {
+        h5 {
+            font-size: 1rem; // Mobilde yazı boyutunu küçült
+        }
+    }
+    
 
-    p {
-        font-size:0.8rem;
-        color:$accent-orange;
-    }
+    // p {
+    //     font-size:0.8rem;
+    //     color:$accent-orange;
+    // }
 }

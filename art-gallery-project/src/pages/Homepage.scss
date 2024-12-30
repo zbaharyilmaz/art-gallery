@@ -19,7 +19,25 @@ body {
 
     .area {
         @include flex(row, center, 1rem, center);  // Flex düzeni
-        padding: 1rem;
-        
+        padding: 1rem;  
     }
 }
+
+// Mobile, tablet ve küçük ekranlar için medya sorguları
+@media (max-width: 1200px) {  // Tablet ve küçük masaüstü
+    .works {
+        width: calc(50% - 1rem);  // 2 kart sırasıyla gösterilir
+        height: 350px;  // Yükseklik biraz kısaltılır
+    }
+}
+
+@media (max-width: 768px) {  // Mobil tablet ve daha küçük ekranlar
+    .works {
+        width: calc(100% - 1rem);  // Kartlar tam genişlikte
+        height: 300px;  // Yükseklik küçültülür
+    }
+    .area {
+        flex-direction: column;  // Mobilde kartlar üst üste gelir
+    }
+}
+
