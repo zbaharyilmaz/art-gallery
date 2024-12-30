@@ -33,7 +33,7 @@ Clone this repository to your local machine:
 
 bash
 Kodu kopyala
-git clone https://github.com/yourusername/van-gogh-art-gallery.git
+git clone https://github.com/zbaharyilmaz/van-gogh-art-gallery.git
 Navigate into the project directory:
 
 bash
