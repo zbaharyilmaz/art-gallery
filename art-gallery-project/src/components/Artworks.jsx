@@ -1,5 +1,4 @@
 import "./Artworks.scss";
-
 const Artwork = ({work}) => {
   return ( 
 <div className="works" >

@@ -9,7 +9,6 @@ body {
     font-family: "Cinzel", serif;
     text-align: center;
 
-
     .header {
         margin-top: 3rem;
         font-size: 3.4rem;
@@ -18,12 +17,10 @@ body {
     }
 
     .area {
-        @include flex(row, center, 1rem, center);  // Flex düzeni
+        @include flex(row, center, 1rem, center); 
         padding: 1rem;  
     }
 }
-
-// Mobile, tablet ve küçük ekranlar için medya sorguları
 @media (max-width: 1200px) {  // Tablet ve küçük masaüstü
     .works {
         width: calc(50% - 1rem);  // 2 kart sırasıyla gösterilir

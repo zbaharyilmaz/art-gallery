@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Van Gogh Art Gallery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Van Gogh Art Gallery project! This is a web application that showcases the iconic artworks of Vincent Van Gogh, providing an interactive gallery experience using React and Sass for styling.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+![Project Demo](./public/art-gallery.gif)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-Responsive Layout: The application automatically adjusts its layout for desktop, tablet, and mobile screens.
+-Interactive Gallery: Hovering over the artwork enlarges the image for better visibility.
+-Sass Styling: The project is styled using Sass, providing a clean and customizable design.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+-React: JavaScript library for building user interfaces.
+-Sass: A CSS preprocessor for styling.
+-Flexbox: Employed for layout management and responsive card grid.
+-Google Fonts: Custom fonts used for styling text (Cinzel).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation Instructions
 
-### `npm run build`
+To get started with the Van Gogh Art Gallery project, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone this repository to your local machine:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+Kodu kopyala
+git clone https://github.com/yourusername/van-gogh-art-gallery.git
+Navigate into the project directory:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+Kodu kopyala
+cd van-gogh-art-gallery
+Install the required dependencies:
 
-### `npm run eject`
+bash
+Kodu kopyala
+npm install
+Run the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Kodu kopyala
+npm start
+This will start the application on http://localhost:3000.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Open the application in your browser to view the gallery.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
+Once you have the project running, you can see the full gallery of Van Gogh's paintings displayed.
+Each artwork has a hover effect that slightly enlarges the image.
+The gallery adjusts based on your screen size, making it responsive on desktops, tablets, and mobile devices.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
+Contributions to the project are welcome! If you have suggestions or improvements, feel free to fork the repository, make changes, and submit a pull request.
 
-## Learn More
+Steps to contribute:
+Fork this repository.
+Clone your fork to your local machine.
+Create a new branch for your changes.
+Implement your changes and test them.
+Commit your changes and push to your fork.
+Create a pull request with a detailed description of the changes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

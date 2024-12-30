@@ -6,18 +6,18 @@
     @include flex(row, center, 1rem, center); 
 
     width: calc(33.33% - 1rem);  // Ekran boyutuna göre her bir öğenin genişliği
-    height:420px;  // Sabit yükseklik, fotoğraflar aynı boyutta
-    margin-bottom: 1rem;  // Alt boşluk
+    height:420px;
+    margin-bottom: 1rem;
     border-radius: 8px;
     background-color:$bg-dark-blue;
-    overflow: hidden;  // Görsellerin taşmasını engeller
+    overflow: hidden;
     padding:0.7rem;
     border:2px solid $bg-lighten-blue;
 
     img {
         width: 100%;
-        height: 85%;  // Yükseklik oranını belirler
-        object-fit:contain;  // Görsellerin kutuya uyacak şekilde kesilmesini sağlar
+        height: 85%;
+        object-fit:contain;
         filter:opacity(0.8);
         transition: transform 0.3s ease; 
         z-index: 2;
@@ -26,11 +26,8 @@
             transform: scale(1.09);
             filter:none;
             cursor:pointer;
+    
         }
-    }
-
-    .works:hover img {
-        transform: scale(1.09);  // Görseli biraz daha büyüt
     }
 
     h5 {
@@ -42,7 +39,6 @@
         }
     }
     
-
     // p {
     //     font-size:0.8rem;
     //     color:$accent-orange;
