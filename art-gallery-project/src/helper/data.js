@@ -133,28 +133,28 @@ const artworks = [
       image: "https://www.worldhistory.org/uploads/images/15490.png"
     },
     {
-      id: 22,
+      id: 20,
       title: "Vase with Irises Against a Yellow Background",
       year: 1890,
       description: "A vibrant arrangement of irises in a vase, set against a striking yellow background.",
       image: "https://www.worldhistory.org/uploads/images/15493.png"
     },
     {
-      id: 24,
+      id: 21,
       title: "The Artist's Garden at Auvers",
       year: 1890,
       description: "A vibrant depiction of a garden in Auvers-sur-Oise, painted during Van Gogh's final months.",
       image: "https://www.worldhistory.org/uploads/images/15495.png"
     },
     {
-      id: 25,
+      id: 22,
       title: "The Ravine",
       year: 1889,
       description: "A serene landscape of a ravine, created during Van Gogh's time at the Saint-Paul-de-Mausole asylum.",
       image: "https://www.worldhistory.org/uploads/images/15496.png"
     },
     {
-      id: 29,
+      id: 23,
       title: "The Olive Trees",
       year: 1889,
       description: "A vibrant portrayal of olive trees in the south of France, painted in bold, expressive strokes.",
@@ -162,5 +162,4 @@ const artworks = [
     }
   ];
   
-  export default artworks;
-  
+export default artworks;

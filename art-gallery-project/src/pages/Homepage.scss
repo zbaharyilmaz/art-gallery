@@ -1,0 +1,25 @@
+@import "../scss/mixin";
+@import "../scss/reset";
+@import "../scss/variables";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+
+body {
+    background-color: $bg-dark-blue;
+    font-family: "Cinzel", serif;
+    text-align: center;
+
+
+    .header {
+        margin-top: 3rem;
+        font-size: 3.4rem;
+        margin-bottom: 1rem;
+        color: $highlight-yellow;
+    }
+
+    .area {
+        @include flex(row, center, 1rem, center);  // Flex düzeni
+        padding: 1rem;
+        
+    }
+}
