@@ -31,25 +31,17 @@ To get started with the Van Gogh Art Gallery project, follow these steps:
 
 Clone this repository to your local machine:
 
-bash
-Kodu kopyala
-git clone https://github.com/zbaharyilmaz/van-gogh-art-gallery.git
+git clone 
 Navigate into the project directory:
 
-bash
-Kodu kopyala
 cd van-gogh-art-gallery
 Install the required dependencies:
 
-bash
-Kodu kopyala
 npm install
 Run the development server:
 
-bash
-Kodu kopyala
 npm start
-This will start the application on http://localhost:3000.
+This will start the application on 
 
 Open the application in your browser to view the gallery.
 
