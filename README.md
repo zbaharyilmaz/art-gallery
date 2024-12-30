@@ -4,7 +4,7 @@ Welcome to the Van Gogh Art Gallery project! This is a web application that show
 
 ## Demo
 
-![Project Demo](./public/art-gallery.gif)
+![Project Demo](./art-gallery-project/public/art-gallery.gif)
 
 ## Features
 
