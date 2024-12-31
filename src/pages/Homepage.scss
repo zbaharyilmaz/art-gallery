@@ -11,9 +11,21 @@ body {
 
     .header {
         margin-top: 3rem;
-        font-size: 3.4rem;
+        font-size: 3.5rem;
         margin-bottom: 1rem;
         color: $highlight-yellow;
+        letter-spacing: 3.3px;
+        /* Neon ışığı efektini oluşturmak için çoklu gölgeler */
+        text-shadow: 1px 1px 8px $highlight-yellow, 
+    }
+    h3{
+       color: rgba($highlight-yellow, 0.8);
+        font-size: 1.2rem;
+        font-weight: 200;
+        margin: 1.5rem;
+        letter-spacing:2px;
+        text-shadow: 0 0 1px $highlight-yellow, 
+
     }
 
     .area {

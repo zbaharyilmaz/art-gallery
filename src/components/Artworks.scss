@@ -28,10 +28,12 @@
       cursor: pointer;
     }
   }
-
   h5 {
     color: $accent-orange;
+    letter-spacing: 2px;
   }
+  
+  
   @media (max-width: 768px) {
     h5 {
       font-size: 1rem; // Mobilde yazı boyutunu küçült
