@@ -42,25 +42,47 @@ Welcome to the Van Gogh Art Gallery project! This web application showcases the 
 
 ## Installation Instructions
 
-**Clone the Repository**
+To get started with the Van Gogh Art Gallery project, follow these steps:
 
-`git clone https://github.com/zbaharyilmaz/art-gallery.git`
+Clone this repository to your local machine:
 
-**Navigate to the Project Directory**
+bash
+Kodu kopyala
+git clone https://github.com/yourusername/van-gogh-art-gallery.git
+Navigate into the project directory:
 
-`cd art-gallery`
+bash
+Kodu kopyala
+cd van-gogh-art-gallery
+Install the required dependencies:
 
-**Install Dependencies**
+bash
+Kodu kopyala
+npm install
+Run the development server:
 
-`npm install`
+bash
+Kodu kopyala
+npm start
+This will start the application on http://localhost:3000.
 
-**Start the Development Server**
+Open the application in your browser to view the gallery.
 
-`npm start`
+## Usage
+Once you have the project running, you can see the full gallery of Van Gogh's paintings displayed.
+Each artwork has a hover effect that slightly enlarges the image.
+The gallery adjusts based on your screen size, making it responsive on desktops, tablets, and mobile devices.
 
-**Buuild for Production**
+## Contributing
+Contributions to the project are welcome! If you have suggestions or improvements, feel free to fork the repository, make changes, and submit a pull request.
 
-`npm run build`
+Steps to contribute:
+Fork this repository.
+Clone your fork to your local machine.
+Create a new branch for your changes.
+Implement your changes and test them.
+Commit your changes and push to your fork.
+Create a pull request with a detailed description of the changes.
 
 ## License
 
