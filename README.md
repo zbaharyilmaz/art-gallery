@@ -36,7 +36,7 @@ Welcome to the Van Gogh Art Gallery project! This web application showcases the 
  ┃ ┗ 📜_variables.scss
  ┣ 📜App.js
  ┗ 📜index.js
-```
+
 
 ## Installation Instructions
 
